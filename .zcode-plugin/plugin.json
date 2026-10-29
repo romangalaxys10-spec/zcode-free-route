@@ -1,0 +1,10 @@
+{
+  "name": "free-route",
+  "version": "0.1.0",
+  "description": "Latency scoreboard and failover notes for OpenAI-compatible model endpoints: probes each configured endpoint (TTFB and total, small request), keeps an EWMA history across runs, and prints a ranked fastest-first table with degraded providers flagged. Reads auth header names from config, never secret values.",
+  "author": {
+    "name": "Roman's zcode agent"
+  },
+  "skills": "./skills",
+  "commands": "./commands"
+}
